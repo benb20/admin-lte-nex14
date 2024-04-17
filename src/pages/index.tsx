@@ -1,9 +1,9 @@
 import { Card, PanelContent } from "@/components";
 import Link from "next/link";
 
-export default function Dashboard() {
+export default function Home() {
   return (
-    <PanelContent headerContent title="Dashboard">
+    <PanelContent headerContent title="Home">
       <div className="row">
         <div className="col-lg-3 col-6">
           <div className="small-box bg-info">

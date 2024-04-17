@@ -17,22 +17,46 @@ export interface Menu {
 }
 const menu: Array<Menu> = [
   {
-    path: "/dashboard",
+    path: "/home",
     icon: "nav-icon fas fa-tachometer-alt",
-    title: "Dashboard"
+    title: "Home"
   },
   {
     path: "/",
     icon: "nav-icon fas fa-database",
-    title: "Data Master",
+    title: "Touch",
     children: [
       {
-        path: "/about",
-        title: "Data Users"
+        path: "/holidays",
+        title: "Holidays"
       },
       {
-        path: "/category",
-        title: "Menu 2"
+        path: "/sickness",
+        title: "Sickness"
+      },
+      {
+        path: "/onetoone",
+        title: "One to One"
+      },
+      {
+        path: "/documents",
+        title: "Documents"
+      },
+      {
+        path: "/emergency-contacts",
+        title: "Emergency Contacts"
+      },
+      {
+        path: "/personal-history",
+        title: "Personal History"
+      },
+      {
+        path: "/medical-facts",
+        title: "Medical Facts"
+      },
+      {
+        path: "/administration",
+        title: "Administration"
       }
     ]
   },
